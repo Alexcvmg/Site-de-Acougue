@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  background-color: #a64138;
+  position: fixed;
+  
+  
+}
+
+.menu{
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  
+  
+}
+
+.login{
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 50px;
+
+}
+
+#busca{
+  height: 30px;
+  width: 20vw;
+  border: solid 2px #a64138;
+}
+
+.busca{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+#botaoF{
+  padding: 5px;
+  color: #8c0e03;
+  background-color: #f2ccb6;
+  border: solid 2px #8c0e03;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+/* Daqui para cima é o menu e coisas padrões*/
+
+main{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#sidebar{
+  width: 15vw;
+  height: 60vh;
+  background-color: #f2ccb6;
+  box-shadow: 0 0 5px #666;
+  
+}
+
+ul.lateral a{
+  color: #8c0e03;
+  font-weight: bold;
+}
+#sidebar h1{
+  padding: 5px;
+  margin-left: 40px;
+  
+}
+
+.lateral li{
+  margin-top: 5px;
+  padding: 5px;
+  margin-left: 80px;
+  
+}
+
+div#sidebar figure{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#pedacos{
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.heroInterno{
+  background-image: url(../Projeto/Boi/Boi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heroInternoPorco{
+    background-image: url(../Projeto/Porco/porco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#hero{
+  width: 90%;
+}
+
+#vazia{
+  width: 10%;
+  height: 400px;
+  
+}
+
+#texto{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px
+  
+}
+
+h2{
+  text-align: center;
+  color: #8c0e03;
+  font-size: 30px;
+}
+
+.cardMae{
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.filho{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px #666;
+}
+
+.imagemCard{
+  width: 100%;
+  height: 70%;
+}
+
+.textoCard{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.valorCard{
+  width: 100%;
+  height: 10%;
+}
+
+img{
+  width: 100%;
+  height: 100%
+}
+
+.textoCard p, div#texto p{
+   text-align: center;
+   color: #0d0d0d;
+}
+
+.valorCard{
+  text-align: center;
+  font-weight: bold;
+}
+
+#ofertas{
+  margin: 30px 0;
+  text-decoration: underline;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: #f2ccb6;
+  box-shadow: 0 0 5px #666;
+  color: #8c0e03;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  gap: 150px;
+}
+
+footer li {
+  margin: 5px;
+  text-align: center;
+}
+
+#rodape{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  width: 350px;
+  height: 50px;
+}
+
+figure img{
+  width: 150px;
+  height: 150px;
+}
+
+.menuMobile, .verMenuAgora, .barra{
+  display: none;
+}
+
+#faleConosco{
+  margin-top: 30px;
+}
+
+/* Aqui começa a parte de mobile  */
+
+@media (max-width: 576px){
+
+.verMenuAgora{
+  display: none;
+}
+  
+nav{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.menuMobile{
+  width: 180px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  background-color: #a64138;
+  font-size: 20px;
+}
+
+div.menuMobile ul li a{
+  color: white;
+}
+  
+.menu{
+  display: none;
+}
+
+.barra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 10vw;
+  margin-right: 25px;
+  margin-left: 10px;
+  
+}
+
+  div.barra i{
+    font-size: 25px;
+  }
+  
+.login{
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+#busca{
+  width: 30vw;
+}
+
+.busca{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+#sidebar{
+  display: none;
+}
+
+#pedacos{
+  width: 100vw;
+}
+
+#hero{
+  width: 100%;
+}
+
+#vazia{
+  display: none;
+}
+
+.cardMae{
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filho{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  gap: 10px;
+}
+  
+footer figure{
+  margin-left: 50px;
+}
+  
+#rodape{
+  margin-left: 50px;
+}
+  
+}
